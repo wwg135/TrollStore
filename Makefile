@@ -1,4 +1,4 @@
-TOPTARGETS := all clean
+TOPTARGETS := all clean update
 
 $(TOPTARGETS): pre_build make_roothelper make_trollstore make_trollhelper make_trollhelper_package assemble_trollstore make_trollhelper_embedded build_installer15 build_installer64e
 
