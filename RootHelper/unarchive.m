@@ -1,6 +1,6 @@
 #import "unarchive.h"
 
-#include <archive.h>
+#import "/usr/local/include/archive.h"
 #include <archive_entry.h>
 
 static int
